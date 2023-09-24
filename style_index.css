@@ -1,0 +1,59 @@
+
+* 
+    {
+        font-family: poppins, sans-serif;
+    }
+
+
+.add_button
+    {
+        background: url('https://api.iconify.design/zondicons/add-outline.svg?color=white') no-repeat center center / contain;
+        content: url('https://api.iconify.design/zondicons/add-outline.svg?color=white');
+        width: 50px;
+        height: 50px;
+        
+    }
+
+/* to do list css */
+.done 
+    {
+         text-decoration: line-through;
+    }
+/* end to do list css */
+
+/* list items css */
+ul li 
+    {
+        cursor: pointer;
+        position: relative;
+        padding: 5px;
+        list-style-type: none;
+        background: #eee;
+        font-size: 30px;
+        transition: 0.2s;
+        
+    }
+  
+ 
+  /* darker background-color on hover */
+ul li:hover 
+    {
+        background: #4b4949;
+        color: #fff;
+    }
+  
+ /* style the close button */
+.delete_button 
+    {
+        background: url('https://api.iconify.design/typcn/delete.svg') no-repeat center center / contain;
+        content: url('https://api.iconify.design/typcn/delete.svg');   
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        margin-top: 13px;
+        margin-right: 5px;
+    }
+  /* end list items css */
